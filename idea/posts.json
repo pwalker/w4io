@@ -1,0 +1,30 @@
+[
+    {
+	'_id': 'asldkfjnalskjdnf', // couchdb field
+	'_rev': 'asdfkjhsadf', // couchdb field
+	'visibility': 'Draft', // Public, Draft, Private
+	'delete': 0, // logical delete
+	'slug': 'initial-post-slug',
+	'title': 'This in an example Post!',
+	'body': 'We exemplify the json structure we want our documents to have!',
+	'tease': 'We exemplify...',
+	'tags': ['w4io','test','docs','examples'],
+	'publish': '/Date(1198908717056)/',  // TODO figure out how dates work in couchdb!
+	'created': '/Date(1198908717056)/',
+	'modified': '/Date(1198908717056)/',
+	'files': [ // array so order is preserved
+	    {
+		'description': 'text about the file',
+		'file': '/system/path/file2.txt',
+		'url': 'media/file1.txt', // relative to path
+		'created': '/Date(119808717056)/',
+	    },
+	    {
+		'description': 'text about the file',
+		'file': '/system/path/file2.txt',
+		'url': 'media/file2.txt', // relative to path
+		'created': '/Date(119808717056)/',
+	    }
+	], // TODO (this includes pictures)
+    }
+]
